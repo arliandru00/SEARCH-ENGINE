@@ -1,2 +1,197 @@
 # SEARCH-ENGINE
 SEARCH ENGINE HTML
+
+<!DOCTYPE html>
+  <html>
+    <head>
+    	<title>TUGAS PAK KARNO</title>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+<!-- awal navbar -->
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper" style="background-color: black">
+      
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <!-- drop down -->
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">CONTACT<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">CONTACT<i class="material-icons right">arrow_drop_down</i></a></li>
+  </ul>
+
+
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href='https://www.instagram.com/arliandru/?utm_source=ig_profile_share&igshid=x4pxuax1xjpj'>instagram</a></li>
+  <li><a href="https://www.youtube.com/channel/UC65KIAzV2Btr7yVBUvcrVag">youtube</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>
+
+<ul id="dropdown2" class="dropdown-content">
+  <li><a href='https://www.instagram.com/arliandru/?utm_source=ig_profile_share&igshid=x4pxuax1xjpj'>instagram</a></li>
+  <li><a href="https://www.youtube.com/channel/UC65KIAzV2Btr7yVBUvcrVag">youtube</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>
+
+<!-- akhir navbar -->
+<!-- awal slider -->
+<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="Untitled-3.jpg"> <!-- random image -->
+        <div class="caption center-align">
+        </div>
+      </li>
+      <li>
+        <img src="Untitled-2.jpg"> <!-- random image -->
+        <div class="caption right-align">
+        </div>
+      </li>
+      <li>
+        <img src="Untitled-1.jpg"> <!-- random image -->
+        <div class="caption left-align">
+        </div>
+      </li>
+    </ul>
+  </div>
+<!-- akhir slider -->
+
+<!-- awal about -->
+<div class="container">
+  <div class="row">
+    <div class="col s12 col m12 col12 l12">
+      <center><h1 class="about" style="font-family: 'Permanent Marker', cursive;">SPORTBIKE INDONESIA</h1></center>
+    </div>
+<!-- akhir about -->
+<hr>
+
+<!-- awal search -->
+<h2></h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="masukan tipe SPORTBIKE......" title="Type in a name">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">TIPE SPORTBIKE</th>
+    <th style="width:40%;">HARGA</th>
+  </tr>
+  <tr>
+    <td> <a href="https://www.oto.com/motor-baru/yamaha/r6">YAMAHA R6</a> </td>
+    <td>Rp270 Juta IDR</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.oto.com/motor-baru/yamaha/r1m">Yamaha R1M</a></td>
+    <td>Rp812 Juta IDR</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.oto.com/motor-baru/kawasaki/ninja-h2">Kawasaki Ninja H2</a></td>
+    <td>Rp820 Juta IDR</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.oto.com/motor-baru/ducati/panigale">Ducati Panigale</a></td>
+    <td>Rp658 Juta IDR</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.oto.com/motor-baru/yamaha/r1">Yamaha R1</a></td>
+    <td>Rp605 Juta IDR</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.oto.com/motor-baru/honda/cbr1000rr">Honda CBR1000RR</a></td>
+    <td>Rp699 Juta IDR</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.oto.com/motor-baru/bmw/s-1000-rr">BMW S 1000 RR</a></td>
+    <td>Rp714 Juta IDR</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.oto.com/motor-baru/bmw/hp4">BMW HP4 Race</a></td>
+    <td>Rp2,1 Milyar IDR</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.oto.com/motor-baru/mv-agusta/f4">MV Agusta F4</a></td>
+    <td>Rp998 Juta IDR</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.oto.com/motor-baru/aprilia/rsv4-rf">Aprilia RSV4 RF</a></td>
+  <td>Rp823 Juta IDR</td>
+  </tr>
+</table>
+
+<br>
+<br>
+<br>
+
+<center><H4>DIRECTED BY : <td>ARLIANDRU SEPTO</td></H4></center>
+
+<!-- akhir search -->
+
+      <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+       </script>
+      <script type="text/javascript">
+        const navbar = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(navbar);
+        // slider javascript
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider,{
+          indicators: false,
+          height: 450,
+          transition : 800,
+          interval:5000
+        });
+
+
+        //dropdown
+        const dropdown = document.querySelectorAll('.dropdown-trigger');
+        M.Dropdown.init(dropdown);
+
+        //search
+function myFunction() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+      </script>
+    </body>
+  </html>
+        
